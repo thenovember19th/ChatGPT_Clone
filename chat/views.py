@@ -4,7 +4,7 @@ from .models import QuestionAnswer
 
 
 def chatGpt(request):
-    # api_key = "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"
+    api_key = "Your OpenAI API Key"
     
     question=''
     if request.method=='POST':
